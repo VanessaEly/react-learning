@@ -1,0 +1,19 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This repository is used to learn how to work with Javascript's React library.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanessaEly/react-learning.git"
+  },
+  "author": "Vanessa Carla Ely",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanessaEly/react-learning/issues"
+  },
+  "homepage": "https://github.com/VanessaEly/react-learning#readme"
+}
