@@ -18,11 +18,9 @@
     a change to the data, then it would send the updated data to the parent component where the change will actually be made
 */
 
-console.log(
-`------------------
+console.log(`------------------
 ARROW FUNCTIONS
-------------------`
-);
+------------------`);
 // ES6 new way of declare functions
 const shelf1 = [{name: 'name1', shelf: 'a'},{name: 'name2', shelf: 'a'}];
 const shelf2 = [{name: 'name3', shelf: 'b'},{name: 'name4', shelf: 'b'}];
@@ -52,22 +50,18 @@ console.log('oneParameter = ', oneParameter);
 const booksOnShelf = oneParameter('c');
 console.log('books = ', booksOnShelf);
 
-console.log(
-`------------------
+console.log(`------------------
 ARRAY.MAP
-------------------`
-);
+------------------`);
 // This method gets called on an existing array and returns a new array based on what
 // is returned from the function that's passed as an argument.
 const names = ['Karen', 'Richard', 'Tyler'];
 const nameLengths = names.map( name => name.length );
 console.log('nameLengths = ', nameLengths);
 
-console.log(
-`------------------
+console.log(`------------------
 ARRAY.FILTER
-------------------`
-);
+------------------`);
 // Does the same as the map method. The difference is that the function passed to .filter()
 // is used as a test, and only items in the array that pass the test are included in the new array.
 // Has to return true of false
