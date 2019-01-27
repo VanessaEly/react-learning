@@ -53,6 +53,9 @@ console.log('books = ', booksOnShelf);
 console.log(`------------------
 ARRAY.MAP
 ------------------`);
+// CAN'T BE USED IN OBJECTS
+// to use it in objects, use Object.keys
+// Object.keys(movies).map(id => id + 1 );
 // This method gets called on an existing array and returns a new array based on what
 // is returned from the function that's passed as an argument.
 const names = ['Karen', 'Richard', 'Tyler'];
