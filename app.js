@@ -70,3 +70,14 @@ ARRAY.FILTER
 // Has to return true of false
 const shortNames = names.filter( name => name.length < 6 );
 console.log('shortNames < 6 = ', shortNames);
+
+// Destruct + spread operator
+// handleInput = event => {
+//   const { name, value } = event.target;
+  
+//   this.setState(currState => ({
+//     ...currState, user: { // merges current state with new user object
+//       ...currState.user, [name]: value, // merges current state user object with the changed property
+//     },
+//   }));
+// };
