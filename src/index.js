@@ -44,7 +44,7 @@ const elementListJSX = <ol>
 ReactDOM.render(elementListJSX, document.getElementById('element-list-jsx'));
 // When writing JSX, keep in mind that it must only return a single element.
 // This element may have any number of descendants, but there must be a single root element wrapping your overall JSX
-// Example: Only one div should be returned (consider ir as a wrapper), but this div can have multiple tags inside of it.
+// Example: Only one div should be returned (consider is as a wrapper), but this div can have multiple tags inside of it.
 
 // COMPONENTS
 class ContactList extends React.Component {
